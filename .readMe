@@ -1,0 +1,16 @@
+# Database Test Suite - User Tests
+
+## Overview
+This project contains a suite of database tests focused on user-related functionality. Recently, one of the tests began failing unexpectedly, despite no reported changes from the development team. This repository contains the necessary files to reproduce and fix the issue.
+
+## Project Structure
+- `test_database.js` - Contains the database test suite
+- `setup_db.sql` - Database initialization script
+- `setup_db.sql.b64` - Base64 encoded version of the setup script (for Docker)
+- `Dockerfile` - Container configuration for running tests
+- `run_test.sh` - Shell script to execute the test suite
+
+## Quick Start
+1. Build the Docker container:
+```bash
+docker
